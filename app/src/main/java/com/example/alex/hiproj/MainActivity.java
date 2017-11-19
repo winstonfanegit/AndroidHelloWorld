@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 
 import static android.view.View.*;
 
-// Activity: A rectangular area that displays something
+// Activity: A rectangular area that displays something. think of UI
 public class MainActivity extends AppCompatActivity {
 
     @Override
