@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HiProj</string>
+    <string name="hi_button">Hi</string>
+    <string-array name="beer_colors">
+        <item>White</item>
+        <item>Gold</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="my_items">
+        <item>apple</item>
+        <item>pear</item>
+        <item>berry</item>
+    </string-array>
+</resources>
