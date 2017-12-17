@@ -46,8 +46,8 @@ public class MyItemAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View v = myInflater.inflate(R.layout.my_listview_details, null);
         TextView nameTextView = (TextView) v.findViewById(R.id.nameTextView);
-        TextView descTextView = (TextView) v.findViewById(R.id.descriptionTextView);
         TextView priceTextView = (TextView) v.findViewById(R.id.priceTextView);
+        TextView descTextView = (TextView) v.findViewById(R.id.descriptionTextView);
 
         nameTextView.setText(items.get(i));
         descTextView.setText(descriptions.get(i));
